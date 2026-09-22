@@ -23,6 +23,12 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha || github.sha }}
 
+      - name: Verify software-index contract with ai-ci
+        uses: isomorphisms/ai-ci@2b0a74262c35f582ee7a3653c85e48afdc4476e1
+        with:
+          root: .
+          suite: .github/ai-ci/suite.tsv
+
       - name: Enforce ai-ci GitHub runner policy
         uses: isomorphisms/ai-ci/github@2b0a74262c35f582ee7a3653c85e48afdc4476e1
         with:
