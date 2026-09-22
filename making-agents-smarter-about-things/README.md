@@ -76,7 +76,7 @@ This matters because language models are very good at blending plausible-soundin
 
 [walnut-burgundy/albers](https://github.com/walnut-burgundy/albers) collects research and experiments around Josef Albers, color interaction, perception, and computational color models.
 
-Color is a useful case because a model can know the vocabulary while still be weak at the actual relationships among physical display values, color-space coordinates, perceptual context, and mathematical transformations.
+Color is a useful case because a model can know the vocabulary while still being weak at the actual relationships among physical display values, color-space coordinates, perceptual context, and mathematical transformations.
 
 Small exact experiments — even one pixel or two adjacent colors — give the agent concrete objects to reason from instead of asking it to synthesize a vague theory of color from pretrained memory.
 
